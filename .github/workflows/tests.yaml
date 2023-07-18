@@ -27,4 +27,4 @@ jobs:
       run: cd api && mvn clean install
 
     - name: Run tests
-      run: mvn test
+      run: cd api && mvn test
